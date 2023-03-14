@@ -19,7 +19,7 @@ The available flags are (in a table):
 | ------------ | ----- | ---------------------------------------------------------------------------------------- | -------------- |
 | --directory  | -d    | The directory to search for duplicate images in                                          | None           |
 | --recursive  | -r    | Whether to search for duplicate images recursively in subdirectories                     | False          |
-| --format     | -f    | The image formats to search for (separated by commas)                                    | jpg, jpeg, png |
+| --format     | -f    | The image formats to search for (separated by spaces)                                    | jpg, jpeg, png |
 | --no-confirm | -n    | Whether to skip the confirmation prompt                                                  | False          |
 | --threshold  | -t    | The threshold of when to count an image as a duplicate (must be a value between 0 and 1) | 0.8            |
 | --verbose    | -v    | Whether to print out the progress of the script                                          | False          |
